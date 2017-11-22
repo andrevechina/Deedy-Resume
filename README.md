@@ -2,7 +2,7 @@ Vechina-Resume
 =========================
 
 ## Preview
-[![alt tag](https://raw.githubusercontent.com/andrevechina/Vechina-Resume/master/andre-vechina-resume.png)](https://github.com/andrevechina/Vechina-Resume/raw/master/andre-vechina-resume.pdf)
+![alt tag](https://raw.githubusercontent.com/andrevechina/Vechina-Resume/master/andre-vechina-resume.png)
 [Download PDF](https://github.com/andrevechina/Vechina-Resume/raw/master/andre-vechina-resume.pdf)
 
 ## License
