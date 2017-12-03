@@ -1,0 +1,68 @@
+{
+    "latex-workshop.latex.toolchain": [
+        {
+            "command": "latexmk",
+            "args": [
+                "-synctex=1",
+                "-interaction=nonstopmode",
+                "-file-line-error",
+                "-xelatex",
+                "%DOC%"
+            ]
+        },
+        {
+            "command": "htxelatex",
+            "args": [
+                "%DOC%.tex",
+                "xhtml, mathml, charset=utf-8",
+                " -cunihtf -utf8"
+            ]
+        },
+        {
+            "command": "convert",
+            "args": [
+                "-density",
+                "600",
+                "-quality",
+                "90",
+                "-fill",
+                "white",
+                "-opaque",
+                "none",
+                "%DOC%.pdf",
+                "%DOC%.png"
+            ]
+        }
+    ],
+    "latex-workshop.latex.clean.fileTypes": [
+        "*.aux",
+        "*.bbl",
+        "*.blg",
+        "*.idx",
+        "*.ind",
+        "*.lof",
+        "*.lot",
+        "*.out",
+        "*.toc",
+        "*.acn",
+        "*.acr",
+        "*.alg",
+        "*.glg",
+        "*.glo",
+        "*.gls",
+        "*.ist",
+        "*.fls",
+        "*.log",
+        "*.fdb_latexmk",
+        "*.xdv",
+        "*.xref",
+        "*.tmp",
+        "*.lg",
+        "*.idv",
+        "*.css",
+        "*.4ct",
+        "*.4tc"
+    ],
+    "latex-workshop.latex.clean.enabled": true,
+    "spellright.language": "english"
+}
