@@ -12,8 +12,12 @@
 
 \renewenvironment{tightemize}{
     \begin{justify}
-    \vspace{-\topsep}\begin{itemize}\itemsep1pt \parskip0pt \parsep0pt
+    % \vspace{-\topsep}
+    \begin{itemize}\itemsep1pt \parskip0pt \parsep0pt
 }{
-    \end{itemize}\vspace{-\topsep}
+    \end{itemize}
+    % \vspace{-\topsep}
     \end{justify}
 }
+
+\renewcommand{\sectionsep}{\vspace{6pt}}
