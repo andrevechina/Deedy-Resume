@@ -6,7 +6,7 @@
 
 \geometry{hmargin=3.25cm}
 
-\renewcommand\refname{\vskip -0.75cm}
+\renewcommand{\refname}{\vskip -0.75cm}
 
 \newcommand{\tdot}{\hspace{0.3em}\textperiodcentered\hspace{0.5em}}
 
@@ -21,3 +21,12 @@
 }
 
 \renewcommand{\sectionsep}{\vspace{6pt}}
+
+\newenvironment{experience-item}[5]{
+    \runsubsection{#1}
+    \descript{| #2}
+    \location{#3 - #4 | #5}
+    %\vspace{\topsep} % Hacky fix for awkward extra vertical space
+}{
+    \sectionsep
+}
