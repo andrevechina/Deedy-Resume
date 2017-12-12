@@ -14,7 +14,7 @@
             "command": "htxelatex",
             "args": [
                 "%DOC%.tex",
-                "xhtml, mathml, charset=utf-8",
+                "andre-vechina-resume",
                 " -cunihtf -utf8"
             ]
         },
